@@ -1,12 +1,9 @@
 # Spring Kotlin Post Service
 
 ## Description
-```
 This project is a REST API where users can read other people's posts and create their own. To access the features, users need to register on the website. The authentication mechanism used here is based on JWT Tokens with BS256 encryption algorithm for cryptography. Additionally, there's an admin role implemented, allowing admins to retrieve all posts and delete posts as needed. The project follows SOLID and clean code principles.
-```
 
 ### Technologies Used
-```
 * Spring Security
 * Kotlin
 * Spring Boot
@@ -16,17 +13,14 @@ This project is a REST API where users can read other people's posts and create 
 * Hibernate
 * JWT Tokens authorization
 * PostgreSQL
-```
   
 ### Features
-```
 * User registration
 * User authentication using JWT Tokens
 * Create, read, update, and delete posts
 * Admin role for accessing all posts and deleting posts
 * Database migration using Liquibase
 * ORM using Hibernate
-```
   
 ### Getting Started
 To get started with this project, you can run it locally or using Docker.
