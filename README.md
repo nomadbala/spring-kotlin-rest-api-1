@@ -44,6 +44,7 @@ docker-compose up --build
 By default, the Docker Compose configuration will spin up a PostgreSQL container alongside the Spring Boot application.
 
 ### API Endpoints
+```
 POST /api/auth/register - Register a new user.
 POST /api/auth/login - Login to the application and receive a JWT token.
 GET /api/v1/admin/posts - Retrieve all posts.
@@ -51,6 +52,7 @@ GET /api/v1/posts/{id} - Retrieve a specific post by ID.
 POST /api/v1/posts - Create a new post.
 PUT /api/v1/posts/{id} - Update an existing post.
 DELETE /api/v1/admin/posts/{id} - Delete a post by ID.
+```
 
 ### Contributing
 Contributions are welcome! Feel free to open issues or pull requests to suggest improvements or report bugs.
