@@ -56,4 +56,4 @@ DELETE /api/v1/admin/posts/{id} - Delete a post by ID.
 Contributions are welcome! Feel free to open issues or pull requests to suggest improvements or report bugs.
 
 ### License
-
+This project is licensed under the APGL-3.0 license - see the LICENSE file for details.
